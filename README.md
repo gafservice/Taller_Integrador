@@ -139,3 +139,19 @@ ____________________________________________________
 ____________________________________________________
 
 # Hope You Enjoy this, 73 !!  CA2RXU , Valparaiso, Chile
+
+# Pasos de diseño:
+- Definir los entregables.
+- Definir los paquetes de trabajo (son las tareas internas de los entregables), lo cual incluye las plataformas a utilizar con el dispositivo y las personas asignadas para realizar cada tarea, si se le hace algún empaquetado al dispostivo, todo depende de cada entregable en el proyecto.
+- Estimar el trabajo en cuanto a tiempo y costo (el scope de cada tarea), estimación del workpackage, de esta manera es posible calcular presupuestos.
+- Agenda del trabajo (cuándo nos va a dar el entregable).
+
+En un gráfico de Gantt
+- Se agrega un objetivo, ejemplo: diseñar la interfase de despliegue de datos del módulo.
+- Workpackage => Crear la interface en watson.
+- Se asigna una persona con un tiempo de entrega.
+- Asegurar los recursos para el proyecto (elementos adicionales de los que ya nos han brindado), porta baterías, baterías, componentes electrónicos, etc. Esto se consigna a una lista y se le llama BOM (Bill of materials), también puede haber recurso humano, por ejemplo solicitar a algún externo colaboración,no necesariamente el recurso humano va en el BOM, usualmente en esta parte van los componentes que se requieren para construir o terminar de ensamblar el producto, esta tabla también puede incluir los costos. Importante poner el part number de los componentes en la tabla.
+- Posteriormente se incorpora el presupuesto a la agenda, esto significa que es necesario tener listos los componentes antes de que comience una tarea que requiera el recurso.
+- Identificar los indicadores de rendimiento o funcionamiento, por ejemplo cuántas medidas obtuvimos de la comunicación de los dispositivos.
+- Identificar factores críticos del proyecto, por ejemplo componentes que no se encuentran en stock y es necesario tenerlos en cuenta para el seguimiento del proyecto.
+- Los indicadores funcionan para el test bench, es el banco de pruebas a ejecutar para comprobar que este va acorde a los entregables del proyecto. El diseño va enfocado a las pruebas que se realizan con el test bench, en la documentación se debe plasmar la información de los casos críticos y en qué no se puede utilizar. "Este dispositivo solo funciona para....". Si se logra todas las comunicaciones o no, hay que diseñar el dispositivo en el rango según los casos identificados.
