@@ -1,3 +1,10 @@
+# Integrantes
+
+-Gerardo Araya Fallas
+-Carlos Elizondo Alfaro
+-Walter Serrano Concepción
+-Fabián Chacón Solano
+
 # CA2RXU LoRa APRS Tracker/Station
 
 This firmware is for using ESP32 based boards with LoRa Modules and GPS to live in the APRS world.
