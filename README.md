@@ -156,3 +156,4 @@ En un gráfico de Gantt
 - Identificar factores críticos del proyecto, por ejemplo componentes que no se encuentran en stock y es necesario tenerlos en cuenta para el seguimiento del proyecto.
 - Los indicadores funcionan para el test bench, es el banco de pruebas a ejecutar para comprobar que este va acorde a los entregables del proyecto. El diseño va enfocado a las pruebas que se realizan con el test bench, en la documentación se debe plasmar la información de los casos críticos y en qué no se puede utilizar. "Este dispositivo solo funciona para....". Si se logra todas las comunicaciones o no, hay que diseñar el dispositivo en el rango según los casos identificados.
 - Añadir un 30% de costos al presupuesto inicial permite tener un margen para imprevistos.
+- Entregable 12 de Agosto, diagramas de primer, segundo y tercer nivel y comenzar a montar el esqueleto del diseño del proyecto.
