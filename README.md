@@ -1,9 +1,8 @@
 # Integrantes
-
--Gerardo Araya Fallas
--Carlos Elizondo Alfaro
--Walter Serrano Concepción
--Fabián Chacón Solano
+- Gerardo Araya Fallas
+- Carlos Elizondo Alfaro
+- Walter Serrano Concepción
+- Fabián Chacón Solano
 
 # CA2RXU LoRa APRS Tracker/Station
 
