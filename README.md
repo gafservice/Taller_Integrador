@@ -8,10 +8,16 @@
 
 <img title="a title" alt="Alt text" src="images/readme_images/primer_nivel.png">
 
+- **Sensor de desplazamiento:** Mide el desplazamiento de la masa de tierra.
+- **Módulo Lora:** Transmite los datos del sensor a una estación base.
+- **Estación base:** Recibe datos del módulo LoRa y los envía a un servidor a través de internet.
+- **Servidor en la nube:** Recibe y almacena datos, realiza análisis y genera alertas.
+- **Interfaz de usuario:** Permite la visualización de datos y alertas en tiempo real.  
 
 <br/>
 
 <img title="a title" alt="Alt text" src="images/readme_images/segundo_nivel.png">
+
 
 # CA2RXU LoRa APRS Tracker/Station
 
