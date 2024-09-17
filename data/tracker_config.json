@@ -1,12 +1,12 @@
 {
 	"beacons": [
 		{
-			"callsign": "NOCALL-7",
+			"callsign": "TITEC1-7",
 			"gpsEcoMode": false,
 			"symbol": "[",
 			"overlay": "/",
 			"micE": "",
-			"comment": "",
+			"comment": "Taller Integrador ITCR T1",
 			"smartBeacon": {
 				"active": true,
 				"slowRate": 120,
@@ -20,7 +20,7 @@
 			}			
 		},
 		{
-			"callsign": "NOCALL-7",
+			"callsign": "TITECP-7",
 			"gpsEcoMode": false,
 			"symbol": ">",
 			"overlay": "/",
@@ -39,7 +39,7 @@
 			}
 		},
 		{
-			"callsign": "NOCALL-7",
+			"callsign": "TITECS-7",
 			"gpsEcoMode": false,
 			"symbol": "b",
 			"overlay": "/",
@@ -73,7 +73,7 @@
 		"maxDistanceToTracker": 30, 
 		"standingUpdateTime": 15,
 		"sendAltitude": true,
-		"sendBatteryInfo": false,
+		"sendBatteryInfo": true,
 		"bluetoothType": 1,
 		"bluetoothActive": true,
 		"disableGPS": false
@@ -82,9 +82,9 @@
 		"password": "ABCDEF"
 	},
 	"bme": {
-		"active": false,
+		"active": true,
 		"temperatureCorrection": 0.0,
-		"sendTelemetry": false
+		"sendTelemetry": true
 	},
 	"notification": {
 		"ledTx": false,
