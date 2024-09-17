@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="TYmKDGb_Znsisi6iDiIq">
+    <mxGraphModel dx="1364" dy="843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T5jbeaTSh4NpooHPSjEx-1" target="T5jbeaTSh4NpooHPSjEx-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-1" value="Sensor de Desplazameiento" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#dae8fc;sketch=1;labelBackgroundColor=none;labelBorderColor=none;textShadow=0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="18" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-2" value="Diagramas de Primer nivel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="275" y="100" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-3" value="&lt;li&gt;&lt;strong&gt;Sensor de Desplazamiento&lt;/strong&gt;: Mide el desplazamiento de la masa de tierra.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Módulo LoRa&lt;/strong&gt;: Transmite los datos del sensor a una estación base.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Estación Base&lt;/strong&gt;: Recibe datos del módulo LoRa y los envía a un servidor a través de internet.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Servidor en la Nube&lt;/strong&gt;: Recibe y almacena datos, realiza análisis y genera alertas.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Interfaz de Usuario&lt;/strong&gt;: Permite la visualización de datos y alertas en tiempo real.&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="280" width="530" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T5jbeaTSh4NpooHPSjEx-4" target="T5jbeaTSh4NpooHPSjEx-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-4" value="Modulo LORA" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#d5e8d4;sketch=1;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="165" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="T5jbeaTSh4NpooHPSjEx-5" target="T5jbeaTSh4NpooHPSjEx-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-5" value="Servidor en la Nube" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#fff2cc;sketch=1;strokeColor=#d6b656;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="464" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-6" value="Estacion Base" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f8cecc;sketch=1;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="620" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T5jbeaTSh4NpooHPSjEx-7" target="T5jbeaTSh4NpooHPSjEx-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5jbeaTSh4NpooHPSjEx-7" value="Interfase de usuario" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#ffe6cc;sketch=1;strokeColor=#d79b00;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="312" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
