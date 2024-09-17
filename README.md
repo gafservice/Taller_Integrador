@@ -4,6 +4,15 @@
 - Walter Serrano Concepción
 - Fabián Chacón Solano
 
+# Diagramas de nivel
+
+<img title="a title" alt="Alt text" src="images/readme_images/primer_nivel.png">
+
+
+<br/>
+
+<img title="a title" alt="Alt text" src="images/readme_images/segundo_nivel.png">
+
 # CA2RXU LoRa APRS Tracker/Station
 
 This firmware is for using ESP32 based boards with LoRa Modules and GPS to live in the APRS world.
