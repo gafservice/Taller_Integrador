@@ -1,13 +1,13 @@
 {
-	"callsign": "ticrcGAF-10",
+	"callsign": "NOCALL-10",
 	"network": {
 		"DHCP": true,
 		"static": {
-			"ip": "192.168.1.100",
+			"ip": "192.168.0.100",
 			"subnet": "255.255.255.0",
-			"gateway": "192.168.1.1",
-			"dns1": "192.168.1.1",
-			"dns2": "192.168.1.2"
+			"gateway": "192.168.0.1",
+			"dns1": "192.168.0.1",
+			"dns2": "192.168.0.2"
 		},
 		"hostname": {
 			"overwrite": false,
@@ -18,16 +18,16 @@
 		"active": true,
 		"AP": [
 			{
-				"SSID": "FAM00_2.4",
-				"password": "F4m250103"
+				"SSID": "YOURSSID",
+				"password": "YOURPASSWORD"
 			}
 		]
 	},
 	"beacon": {
-		"message": "GAFservice LoRa iGATE & Digi, Info: github.com/lora-aprs/LoRa_APRS_iGate",
+		"message": "LoRa iGATE & Digi, Info: github.com/lora-aprs/LoRa_APRS_iGate",
 		"position": {
-			"latitude": 9.917,
-			"longitude": -84.196
+			"latitude": 0.000000,
+			"longitude": 0.000000
 		},
 		"use_gps": false,
 		"timeout": 15,
@@ -35,7 +35,7 @@
 	},
 	"aprs_is": {
 		"active": true,
-		"passcode": "26360",
+		"passcode": "",
 		"server": "euro.aprs2.net",
 		"port": 14580,
 		"filter": ""
