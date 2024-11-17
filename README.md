@@ -33,11 +33,13 @@ Modelo de Prueba
 
 
 Pruebas Iniciales del Tracker
+
 <img src="images/OLEDtracker.png" alt="drawing" width="300"/>
 
 
 Prueba de Rastreo en Mapa <a href="https://aprs.fi/#!lat=9.9354&lng=-84.1032" target="_blank">APRS</a>
-<img src="images/Mapa.png" alt="drawing" width="400"/>
+
+<img src="images/Mapa.png" alt="drawing" width="200"/>
 
 
 
