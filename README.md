@@ -23,15 +23,25 @@
 # LoRa APRS Tracker/Station
 Este Firmware es para ser usado en Tarjetas ESP32 con módulos LoRa y GPS para funcionar en APRS.
 
+## Pruebas iniciales del módulo de rastreo LoRa APRS
+
+El módulo de rastreo a utilizar en este proyecto es el __T-Beam-AXP2101-V1.2__
+
 Modelo de Prueba
-![Screenshot](https://github.com/gafservice/Taller_Integrador/tree/main/images/modelocopia.png)
+
+<img src="images/modelocopia.png" alt="drawing" width="400"/>
+
 
 Pruebas Iniciales del Tracker
-![Screenshot](https://github.com/gafservice/Taller_Integrador/tree/main/images/OLEDtracker.png)
+<img src="images/OLEDtracker.png" alt="drawing" width="300"/>
 
-Prueba de RAstreo en Mapa <a href="https://aprs.fi/#!lat=9.9354&lng=-84.1032" target="_blank">APRS</a>
 
-__(NOTA: Para usar las capacidades TX/RX de este rastreador debe tener también un LoRa iGate cerca de usted. Esto porque el rastreador se comunica en un iGate para enviar y recibir los datos, para ser vistos en la red APRS. Idealmente ese iGate se debe de encontrar en línea vista.)__
+Prueba de Rastreo en Mapa <a href="https://aprs.fi/#!lat=9.9354&lng=-84.1032" target="_blank">APRS</a>
+<img src="images/Mapa.png" alt="drawing" width="400"/>
+
+
+
+__(NOTA: Para usar las capacidades TX/RX de este rastreador debe tener también un LoRa iGate cerca de usted. Esto porque el rastreador se comunica con un iGate para enviar y recibir los datos para ser vistos en la red APRS. Idealmente, ese iGate se debe de encontrar en línea vista.)__
 
 
 ____________________________________________________
