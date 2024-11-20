@@ -92,4 +92,6 @@ ____________________________________________________
 - https://github.com/dl9sau/TTGO-T-Beam-LoRa-APRS : Thomas - DL9SAU for the Kiss <> TNC2 lib
 - https://github.com/richonguzman/LoRa_APRS_Tracker Richonguzman - LoRa_APRS_Tracker
 - https://github.com/richonguzman/LoRa_APRS_iGate Richonguzman - LoRa_APRS_iGate
+## ademas se usaron los repositorios de oe3cjb 
+https://github.com/oe3cjb/TTGO-T-Beam-LoRa-APRS.git
 ____________________________________________________
