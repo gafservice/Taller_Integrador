@@ -41,6 +41,12 @@ Prueba de Rastreo en Mapa <a href="https://aprs.fi/#!lat=9.9354&lng=-84.1032" ta
 
 <img src="images/Mapa.png" alt="drawing" width="200"/>
 
+## Demostración de interfaz gráfica para obtención de datos
+
+
+<img src="images/readme_images/reporte_power_bi.png" alt="drawing"/>
+
+
 
 
 __(NOTA: Para usar las capacidades TX/RX de este rastreador debe tener también un LoRa iGate cerca de usted. Esto porque el rastreador se comunica con un iGate para enviar y recibir los datos para ser vistos en la red APRS. Idealmente, ese iGate se debe de encontrar en línea vista.)__
