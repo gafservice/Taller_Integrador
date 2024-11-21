@@ -47,20 +47,11 @@ Prueba de Rastreo en Mapa <a href="https://aprs.fi/#!lat=9.9354&lng=-84.1032" ta
 <img src="images/readme_images/reporte_power_bi.png" alt="drawing"/>
 
 
-<img src="images/readme_images/dis_01.jpeg" alt="drawing"/>
+<img src="images/readme_images/Igate:_config_01.png" alt="drawing"/>
 
 
-<img src="images/readme_images/dis_02.jpeg" alt="drawing"/>
+<img src="images/readme_images/Igate_config_02.png" alt="drawing"/>
 
 
-<img src="images/readme_images/dis_03.jpeg" alt="drawing"/>
-
-
-<img src="images/readme_images/dis_04.jpeg" alt="drawing"/>
-
-
-<img src="images/readme_images/dis_05.jpeg" alt="drawing"/>
-
-
-<img src="images/readme_images/dis_06.jpeg" alt="drawing"/>
+<img src="images/readme_images/Igate_config_03.png" alt="drawing"/>
 
