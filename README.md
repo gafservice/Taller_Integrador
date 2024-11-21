@@ -47,6 +47,9 @@ Prueba de Rastreo en Mapa <a href="https://aprs.fi/#!lat=9.9354&lng=-84.1032" ta
 <img src="images/readme_images/reporte_power_bi.png" alt="drawing"/>
 
 
+## Configuraciónb Igate
+
+
 <img src="images/readme_images/Igate:_config_01.png" alt="drawing"/>
 
 
