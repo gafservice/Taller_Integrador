@@ -1,0 +1,98 @@
+{
+    "callsign": "GAF-10",
+    "wifi": {
+        "autoAP": {
+            "password": "12345678",
+            "timeout": 10
+        },
+        "AP": [
+            {"ssid":"replace_with_your_wifi","password":"replace_with_your_password"}
+        ]
+    },
+    "beacon": {
+        "latitude": 9.945,
+        "longitude": -84.131,
+        "comment": "GAFservice",
+        "interval": 45,
+        "overlay": "L",
+        "symbol": "&",
+        "path": "WIDE1-1",
+        "sendViaAPRSIS": true,
+        "sendViaRF": false
+    },
+    "aprs_is": {
+        "active": true,
+        "passcode": "29347",
+        "server": "euro.aprs2.net",
+        "port": 14580,
+        "filter": "m/30",
+        "messagesToRF": false,
+        "objectsToRF": false
+    },
+    "digi": {
+        "mode": 0,
+        "ecoMode": false
+    },
+    "lora": {
+        "txFreq": 433775000,
+        "rxFreq": 433775000,
+        "spreadingFactor": 12,
+        "signalBandwidth": 125000,
+        "codingRate4": 5,
+        "power": 20,
+        "txActive": false,
+        "rxActive": true
+    },
+    "display": {
+        "alwaysOn": true,
+        "timeout": 4,
+        "turn180": false
+    },
+    "battery": {
+        "sendInternalVoltage": false,
+        "monitorInternalVoltage": false,
+        "internalSleepVoltage": 2.9,
+        "sendExternalVoltage": false,
+        "externalVoltagePin": 34,
+        "monitorExternalVoltage": false,
+        "externalSleepVoltage": 10.9,
+        "voltageDividerR1": 100.0,
+        "voltageDividerR2": 27.0,
+        "sendVoltageAsTelemetry": true
+	},
+    "wxsensor": {
+        "active": false,
+        "heightCorrection": 0,
+        "temperatureCorrection": 0.0
+	},
+    "syslog": {
+        "active": false,
+        "server": "192.168.0.100",
+        "port": 514
+    },
+    "tnc": {
+        "enableServer": false,
+        "enableSerial": false,
+        "acceptOwn": false
+    },
+    "ota": {
+        "username": "",
+        "password": ""
+    },
+    "webadmin": {
+        "username": "admin",
+        "password": ""
+    },
+    "ntp": {
+        "gmtCorrection": 0
+    },
+    "other": {
+        "rememberStationTime": 30,
+        "lowPowerMode": false,
+        "lowVoltageCutOff": 0,
+        "backupDigiMode": false,
+        "rebootMode": false,
+        "rebootModeTime": 6
+    },
+    "personalNote": ""
+}
