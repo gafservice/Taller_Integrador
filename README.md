@@ -132,3 +132,9 @@ Prueba de Rastreo en Mapa <a href="https://aprs.fi/#!lat=9.9354&lng=-84.1032" ta
 
 
 <img src="images/readme_images/reporte_power_bi.png" alt="drawing"/>
+
+# Interfaz programada y línea de comandos
+
+<img src="images/readme_images/python.jpg" alt="drawing"/>
+
+<img src="images/readme_images/command_line.jpg" alt="drawing"/>
