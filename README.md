@@ -109,20 +109,26 @@ Prueba de Rastreo en Mapa <a href="https://aprs.fi/#!lat=9.9354&lng=-84.1032" ta
 
 <img src="images/Mapa.png" alt="drawing" width="200"/>
 
+
+
+
+# Implementación del sistema
+
+<img src="images/readme_images/implementacion.png" alt="drawing"/>
+
+# Gráficas y reportes
+
+### Packets transmitidos por hora
+<img src="images/readme_images/graph_1.jpg" alt="drawing"/>
+
+### Packets enviados mediante RF al sitio APRS
+<img src="images/readme_images/graph_2.jpg" alt="drawing"/>
+
+### Packets escuchados/recibidos por el tracker
+<img src="images/readme_images/graph_3.jpg" alt="drawing"/>
+
+
 ## Demostración de interfaz gráfica para obtención de datos
 
 
 <img src="images/readme_images/reporte_power_bi.png" alt="drawing"/>
-
-
-## Configuraciónb Igate
-
-
-<img src="images/readme_images/Igate:_config_01.png" alt="drawing"/>
-
-
-<img src="images/readme_images/Igate_config_02.png" alt="drawing"/>
-
-
-<img src="images/readme_images/Igate_config_03.png" alt="drawing"/>
-
