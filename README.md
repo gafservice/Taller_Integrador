@@ -5,6 +5,34 @@
 - Walter Serrano Concepción
 - Fabián Chacón Solano
 
+# Introducción
+
+## Objetivo principal
+
+
+- Desarrollo de un Sistema de Alerta Temprana para el
+Monitoreo del Desplazamiento de Terreno en el Volcán
+Irazú Basado en Tecnología LoRa
+
+### Descripción del problema
+
+- El proyecto tiene como meta realizar un sistema de monitoreo en el volcán Irazú, esto con el fin de analizar el movimiento de tierras que existe en la zona, específicamente en la ubicación de las antenas, lugar donde previamente se han producido deslizamientos de relevancia y afectaron las comunicaciones en su momento por las antenas que cayeron.
+
+- De esta manera se agrega un sistema de monitoreo que mide la distancia en metros desde el origen hasta la grieta por analizar, cuando se detecta un desplazamiento relevante fuera de los últimos datos obtenidos se lanza una alarma.
+
+### Fotografías del área
+
+#### Grietas presentes en el área
+
+<img title="a title" alt="Alt text" src="images/readme_images/desplazamiento1.jpeg">
+
+#### Desplazamientos de tierra ocurridos en el pasado 
+
+<img title="a title" alt="Alt text" src="images/readme_images/desplazamiento2.jpeg">
+
+
+
+
 # Horas de distribución para la ejecución del proyecto
 
 | **Fase del Proyecto**      | **Tarea**                                  | **Horas Estimadas (Redondeadas)** |
