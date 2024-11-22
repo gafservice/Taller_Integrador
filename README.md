@@ -5,6 +5,35 @@
 - Walter Serrano Concepción
 - Fabián Chacón Solano
 
+# Horas de distribución para la ejecución del proyecto
+
+| **Fase del Proyecto**      | **Tarea**                                  | **Horas Estimadas (Redondeadas)** |
+|----------------------------|--------------------------------------------|-----------------------------------|
+| **Planificación**          | Definir requisitos y especificaciones del sistema | 13                                |
+|                            | Identificar los componentes necesarios     | 5                                 |
+|                            | Establecer cronograma y asignar recursos   | 8                                 |
+| **Diseño**                 | Esquema de hardware (circuito electrónico) | 20                                |
+|                            | Diseño de firmware (software para dispositivos) | 27                            |
+|                            | Diseño de software de aplicación           | 33                                |
+|                            | Diseño de interfaz gráfica                 | 13                                |
+| **Desarrollo**             | Prototipado de dispositivos                | 27                                |
+|                            | Programación del firmware                  | 40                                |
+|                            | Desarrollo de la aplicación                | 50                                |
+|                            | Pruebas de integración                     | 20                                |
+| **Pruebas y Validación**   | Pruebas de alcance                         | 13                                |
+|                            | Pruebas de consumo de energía              | 10                                |
+|                            | Pruebas de seguridad                       | 10                                |
+|                            | Pruebas de usabilidad                      | 8                                 |
+| **Documentación**          | Documentación técnica                      | 13                                |
+|                            | Guías de usuario                           | 11                                |
+| **Implementación**         | Despliegue del sistema                     | 13                                |
+|                            | Capacitación de usuarios                   | 7                                 |
+| **Soporte y Mantenimiento**| Soporte técnico                            | 13                                |
+|                            | Actualizaciones de firmware y software     | 20                                |
+|                            | Mantenimiento del sistema                  | 13                                |
+| **Total de Horas Estimadas**|                                           | **405**                           |
+
+
 # Diagramas de nivel
 
 <img title="a title" alt="Alt text" src="images/readme_images/primer_nivel.png">
@@ -18,6 +47,14 @@
 <br/>
 
 <img title="a title" alt="Alt text" src="images/readme_images/segundo_nivel.png">
+
+## Diagramas de tercer Nivel
+
+<img src="images/readme_images/tallint_dn03.png" alt="drawing" width="400"/>
+<img src="images/readme_images/tallint_dn04.png" alt="drawing" width="400"/>
+<img src="images/readme_images/tallint_dn05.png" alt="drawing" width="400"/>
+<img src="images/readme_images/tallint_dn06.png" alt="drawing" width="400"/>
+<img src="images/readme_images/talling_dn07.png" alt="drawing" width="400"/>
 
 
 # LoRa APRS Tracker/Station
