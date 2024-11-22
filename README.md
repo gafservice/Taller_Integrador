@@ -78,12 +78,15 @@ Irazú Basado en Tecnología LoRa
 
 ## Diagramas de tercer Nivel
 
-<img src="images/readme_images/tallint_dn03.png" alt="drawing" width="400"/>
-<img src="images/readme_images/tallint_dn04.png" alt="drawing" width="400"/>
-<img src="images/readme_images/tallint_dn05.png" alt="drawing" width="400"/>
-<img src="images/readme_images/tallint_dn06.png" alt="drawing" width="400"/>
-<img src="images/readme_images/talling_dn07.png" alt="drawing" width="400"/>
+<img src="images/readme_images/tallint_dn03.png" alt="drawing" width="600"/>
+<img src="images/readme_images/tallint_dn04.png" alt="drawing" width="600"/>
+<img src="images/readme_images/tallint_dn05.png" alt="drawing" width="600"/>
+<img src="images/readme_images/tallint_dn06.png" alt="drawing" width="600"/>
+<img src="images/readme_images/talling_dn07.png" alt="drawing" width="600"/>
 
+## Diagrama de cuarto nivel
+
+<img src="images/readme_images/4toNivel.png" alt="drawing" width="600"/>
 
 # LoRa APRS Tracker/Station
 Este Firmware es para ser usado en Tarjetas ESP32 con módulos LoRa y GPS para funcionar en APRS.
@@ -94,7 +97,7 @@ El módulo de rastreo a utilizar en este proyecto es el __T-Beam-AXP2101-V1.2__
 
 Modelo de Prueba
 
-<img src="images/modelocopia.png" alt="drawing" width="400"/>
+<img src="images/modelocopia.png" alt="drawing" width="600"/>
 
 
 Pruebas Iniciales del Tracker
