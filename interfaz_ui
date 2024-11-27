@@ -1,0 +1,93 @@
+import tkinter as tk
+from tkinter import ttk
+import sqlite3
+import time
+from datetime import datetime
+import serial
+import random  # Simula datos para pruebas
+
+
+# SERIAL_PORT = "COM3"  
+# BAUD_RATE = 9600
+# ser = serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1)
+
+# Crear o conectar a la base de datos local
+DATABASE_NAME = "sensor_data.db"
+
+def setup_database():
+    conn = sqlite3.connect(DATABASE_NAME)
+    cursor = conn.cursor()
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS SensorData (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            timestamp TEXT NOT NULL,
+            temperature REAL NOT NULL,
+            distance REAL NOT NULL,
+            location TEXT NOT NULL
+        )
+    ''')
+    conn.commit()
+    conn.close()
+
+def save_to_database(timestamp, temperature, distance, location):
+    conn = sqlite3.connect(DATABASE_NAME)
+    cursor = conn.cursor()
+    cursor.execute('''
+        INSERT INTO SensorData (timestamp, temperature, distance, location)
+        VALUES (?, ?, ?, ?)
+    ''', (timestamp, temperature, distance, location))
+    conn.commit()
+    conn.close()
+
+# Función para obtener datos desde LoRaWAN (simulación)
+def read_from_lorawan():
+    # data = ser.readline().decode().strip()
+    # Simulación de datos
+    data = {
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "temperature": round(random.uniform(20.0, 30.0), 2),
+        "distance": round(random.uniform(0.5, 4.0), 2),
+        "location": "Zona A"
+    }
+    return data
+
+# Actualizar la interfaz gráfica con nuevos datos
+def update_data():
+    data = read_from_lorawan()
+    timestamp = data["timestamp"]
+    temperature = data["temperature"]
+    distance = data["distance"]
+    location = data["location"]
+
+    # Guardar en la base de datos
+    save_to_database(timestamp, temperature, distance, location)
+
+    # Mostrar en la interfaz
+    tree.insert("", tk.END, values=(timestamp, temperature, distance, location))
+
+    # Llamar nuevamente esta función después de un intervalo
+    root.after(5000, update_data)
+
+# Configuración de la interfaz gráfica
+root = tk.Tk()
+root.title("Monitoreo de Sensor Ultrasónico")
+
+frame = ttk.Frame(root)
+frame.pack(padx=10, pady=10, fill="x", expand=True)
+
+# Tabla para mostrar los datos
+tree = ttk.Treeview(frame, columns=("Timestamp", "Temperature", "Distance", "Location"), show="headings")
+tree.heading("Timestamp", text="Timestamp")
+tree.heading("Temperature", text="Temperature (°C)")
+tree.heading("Distance", text="Distance (m)")
+tree.heading("Location", text="Location")
+tree.pack(fill="x", expand=True)
+
+# Configurar la base de datos
+setup_database()
+
+# Iniciar actualización de datos
+update_data()
+
+# Ejecutar la aplicación
+root.mainloop()
